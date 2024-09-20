@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT-AWESOME -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- add bootstartp -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Abam portfolio website</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "9hYWcdZiHP2P1bNDn",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- HEADER-DESIGN -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand h3" href="#">Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars menuIcon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" t>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home-section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Am</h3>
+        <h1>Ch kadibam</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I am a goal-oriented Web Developer with a strong academic foundation
+          in Computer Applications, holding both a Bachelor's and Master's
+          degree. I excel in communication, problem-solving, and leadership. My
+          expertise spans programming, data structures, algorithms, and software
+          development. I have developed projects like an Attendance Management
+          System and Amazon website clone, leveraging modern technologies to
+          solve real-world challenges. Additionally, I have completed full-stack
+          web development training, equipping me to design and deploy dynamic
+          web applications with a focus on quality and efficiency. And currently
+          working on a real-time chat application.
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/kadibam_newmai"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/kadibam"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/kadibam_newmai/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ch-kadibam/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <a href="./assets/resume.pdf" class="btn" download=""
+          >Download CV</a
+        >
+      </div>
+
+      <!-- <div class="home-img">
+        <img src="./assets/profile.jpg" alt="" />
+      </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/pic2.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>me</span></h2>
+        <!-- <h3>Frontend Developer</h3> -->
+        <p>
+          Hello, Ch kadibam, Motivated and detail-oriented recent graduate with an MCA Degree/Major from Chandigarh University. Equipped with a
+          solid foundation in Web Development, I have demonstrated a strong ability to quickly learn and apply new concepts through
+          academic projects . Passionate about Web design, I am eager to contribute fresh ideas and energy to a dynamic team. My
+          strengths include effective communication, problem-solving, and a commitment to continuous learning. Ready to leverage
+          my academic background and enthusiasm to kick start a successful career in Web development.
+        </p>
+        <a href="./assets/resume.pdf" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3><u>Web Development</u></h3>
+          <p>
+            1. Custom Website Development <br />
+            2. Front-End Development <br />
+            3. Back-End Development <br />
+            4. Full-Stack Development <br />
+            5. E-Commerce Development <br />
+            6. Website Maintenance and Optimization
+          </p>
+          <a href="./assets/resume.pdf" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+          <h3>Web Designing</h3>
+          <p>
+            1. Custom Website Design <br />
+            2. UX/UI Design <br />
+            3. Responsive Design <br />
+            4. Landing Page Design <br />
+            5. E-Commerce Design <br />
+            6. Website Redesign <br />
+            7. Graphic Design for Web
+          </p>
+          <a href="./assets/resume.pdf" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-brands fa-android"></i>
+          <h3>Graphic Designing</h3>
+          <p>
+            1. Logo Design <br />
+            2. Branding and Identity Design <br />
+            3. Marketing and Promotional Materials <br />
+            4. Web Graphics and Social Media Design <br />
+            5. Print Design <br />
+            6. Illustration <br />
+            7. Packaging Design
+          </p>
+          <a href="./assets/resume.pdf" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./assets/amazon.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Amazon website clone</h4>
+            <p>
+              The Amazon Web Clone project is a fully functional e-commerce
+              website that replicates the core features of the popular Amazon
+              online shopping platform. This project is designed to provide
+              users with a seamless shopping experience, from browsing products
+              to completing a purchase. It showcases my skills in full-stack web
+              development, including front-end design, back-end development, and
+              database management.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <!-- <div class="portfolio-box">
+          <img src="./assets/img3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>attendence Management System</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+              et?
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div> -->
+
+        <div class="portfolio-box">
+          <img src="./assets/portfolio.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio Design</h4>
+            <p>
+              The Portfolio Design project is a personalized, visually appealing
+              website crafted to showcase my professional skills, projects, and
+              experiences. This project highlights my expertise in web design,
+              front-end development, and user experience, serving as a digital
+              resume and a platform for potential clients or employers to
+              explore my work.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./assets/img5.avif" alt="" />
+          <div class="portfolio-layer">
+            <h4>Real time chat web app</h4>
+            <p>
+              Real-time communication is essential in today's digital world,
+              enabling instant interaction across the globe. Real-time chat web
+              applications play a key role in this by allowing users to exchange
+              messages instantly, enhancing both personal and professional
+              collaboration. The growing demand for these applications stems
+              from the need for immediate communication in various fields. These
+              apps utilize technologies like WebSockets for low-latency
+              messaging and include features like group chats, multimedia
+              sharing, and encryption.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <!-- <div class="portfolio-box">
+          <img src="./assets/img2.webp" alt="" />
+          <div class="portfolio-layer">
+            <h4>Facebook login page</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+              et?
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div> -->
+        <div class="portfolio-box">
+          <img src="./assets/image.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Music web app</h4>
+            <p>
+              The Music Web App project is a dynamic and interactive platform
+              designed for music lovers to discover, stream, and manage their
+              favorite songs and playlists. This project demonstrates my
+              full-stack development skills, including front-end design,
+              back-end integration, and real-time data handling, creating a
+              seamless and engaging user experience.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <sectiion class="contact" id="contact">
+      <h2 class="heading">Contect <span>Me</span></h2>
+
+      <form id="contact-form">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-box">
+          <input type="number" name="number" placeholder="Mobile Number" required />
+          <input type="text" name="subject" placeholder="Email Subject" required />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </sectiion>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @kadibamchawang0921 | All right Reserved.</p>
+      </div>
+      <div class="footer-icontop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- scroll reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- type JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- menu bar -->
+
+    <!-- javascript link -->
+    <script src="main.js"></script>
+
+    <!-- add boostrap js file -->
+  </body>
+</html>
